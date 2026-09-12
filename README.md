@@ -217,155 +217,128 @@ This gives you a useful demonstration containing **all four condition categories
 
 ---
 
-# 💻 COMPLETE POWERSHELL RUNNING GUIDE
+RCC T-BEAM BRIDGE — VISUAL INSPECTION APPLICATION
+=====================================================
 
-You already have the Python file here:
+Tutorial-1: Vibe Coding Assignment
 
-```text
-D:\Users\Ranvir Kumar\Downloads\rcc_bridge_inspection.py
-```
+HOW TO RUN ON ANY WINDOWS PC
+----------------------------
 
-Follow these steps exactly.
+Requirements:
+- Windows 10 / 11
+- Python 3.x
+- Tkinter (normally included with standard Python)
+- No external Python packages are required
 
----
+STEP 1 — Install Python
+-----------------------
+If Python is not already installed, download it from:
 
-## STEP 1 — Open PowerShell
+https://www.python.org/downloads/windows/
 
-Press:
+During installation, make sure to select:
 
-**Windows key → type `PowerShell` → Enter**
+☑ Add Python.exe to PATH
 
-You should see something similar to:
+Then complete the installation.
 
-```text
-PS C:\Users\Ranvir Kumar>
-```
+STEP 2 — Download the Project
+------------------------------
+Download and extract the project ZIP file.
 
----
+The project folder should contain:
 
-## STEP 2 — Check Python
+    RCC_T_Beam_Bridge_Inspection/
+    ├── rcc_bridge_inspection.py
+    ├── README.txt
+    └── Vibe_Coding_Prompts.txt
 
-Type:
+The project folder can be placed anywhere on the computer.
 
-```powershell
-python --version
-```
+No fixed drive, username or folder path is required.
 
-You should get something like:
+STEP 3 — Open PowerShell
+------------------------
+Open the project folder containing:
 
-```text
-Python 3.11.9
-```
+    rcc_bridge_inspection.py
 
-Your Python installation is therefore ready.
+Then right-click inside the folder and select:
 
----
+    Open in Terminal
 
-# STEP 3 — Go to the Downloads Folder
+or open PowerShell manually and navigate to the project folder.
 
-Because your file is located at:
+STEP 4 — Check Python
+---------------------
+Run:
 
-```text
-D:\Users\Ranvir Kumar\Downloads\
-```
+    python --version
 
-type:
+Example:
 
-```powershell
-cd "D:\Users\Ranvir Kumar\Downloads"
-```
+    Python 3.11.9
 
-Press **Enter**.
+If Python is installed correctly, its version will be displayed.
 
-Your PowerShell prompt should now show approximately:
+STEP 5 — Check Tkinter
+----------------------
+Run:
 
-```text
-PS D:\Users\Ranvir Kumar\Downloads>
-```
+    python -m tkinter
 
----
+A small Tkinter test window should appear.
 
-# STEP 4 — Check That the Python File Exists
+Close the test window after confirming that it opens.
 
-Type:
+STEP 6 — Run the Application
+----------------------------
+From inside the project folder, run:
 
-```powershell
-dir
-```
+    python .\rcc_bridge_inspection.py
 
-Look for:
+The application will open with the title:
 
-```text
-rcc_bridge_inspection.py
-```
+    RCC T-Beam Bridge | Visual Inspection
 
-You can also check specifically with:
+ALTERNATIVE ONE-CLICK METHOD
+----------------------------
+The project may also include:
 
-```powershell
-dir "rcc_bridge_inspection.py"
-```
+    Run_RCC_Bridge_Inspection.bat
 
-If the file appears, you're ready.
+Simply double-click this file to launch the application.
 
----
+The batch file does not contain any personal computer path and can
+therefore be used on another Windows PC after the project has been
+downloaded and Python has been installed.
 
-# STEP 5 — Run the Application
+TROUBLESHOOTING
+---------------
 
-Type:
+If:
 
-```powershell
-python .\rcc_bridge_inspection.py
-```
+    'python' is not recognized...
 
-Press **Enter**.
+Install/reinstall Python and make sure:
 
-The application should open with the title:
+    ☑ Add Python.exe to PATH
 
-> **RCC T-Beam Bridge | Visual Inspection**
+was selected during installation.
 
-🎉 Your application is now running.
+If the application does not open, check Tkinter using:
 
----
+    python -m tkinter
 
-# 🚀 ALTERNATIVE — RUN USING THE COMPLETE PATH
+If the Python file cannot be found, make sure PowerShell is opened
+inside the folder containing:
 
-You don't even need to change folders.
+    rcc_bridge_inspection.py
 
-You can directly type:
+The application requires no external Python libraries.
 
-```powershell
-python "D:\Users\Ranvir Kumar\Downloads\rcc_bridge_inspection.py"
-```
-
-Press **Enter**.
-
-This is the easiest command if you know the exact file location.
-
----
-
-# 🧪 STEP 6 — Test Tkinter
-
-The application uses Python's Tkinter GUI library.
-
-You can test it separately with:
-
-```powershell
-python -m tkinter
-```
-
-If Tkinter is working, a small Tkinter test window will appear.
-
-Close that window and run:
-
-```powershell
-python "D:\Users\Ranvir Kumar\Downloads\rcc_bridge_inspection.py"
-```
-
----
-
-# 📝 STEP 7 — ENTER YOUR DEMO DATA
-
-When the application opens, enter:
+=====================================================
 
 ### Inspection Information
 
