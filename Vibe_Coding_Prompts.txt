@@ -1,0 +1,31 @@
+IMPORTANT VIBE-CODING PROMPTS USED
+================================
+
+Prompt 1 — Initial application
+Develop a simple Python desktop application for visual inspection of an
+RCC T-beam bridge. Use the hierarchy Bridge -> Span -> Component ->
+Location -> Observation. Allow an inspector to enter bridge information,
+select a bridge component, record location and defect, classify severity,
+enter remarks, record multiple observations, and display a summary.
+
+Prompt 2 — Engineering interpretation
+Improve the application by assigning condition scores to Good, Minor,
+Moderate and Severe observations. Automatically prioritise observations
+and highlight severe defects. Do not claim that visual inspection alone
+establishes structural safety.
+
+Prompt 3 — Inspection usability
+Add optional inspection photograph selection, CSV export, deletion of
+records, and a clear summary dashboard showing total observations,
+condition distribution, average score and components requiring attention.
+
+Prompt 4 — Testing
+Test the application using representative observations involving the
+deck slab, girder, pier cap, expansion joint and a component with no
+significant visible defect. Check that multiple observations, severity,
+priority and summary calculations work correctly.
+
+Prompt 5 — Final improvement
+Improve the user interface so the application is easy to demonstrate in
+a classroom, with clearly separated sections for inspection information,
+observation entry, recorded observations and inspection summary.
